@@ -1,4 +1,4 @@
-# React Evernote Guided Project
+<!-- # React Evernote Guided Project
 
 In this guided project, we'll be building an Evernote-like application built
 with a React frontend and Rails backend.
@@ -76,9 +76,9 @@ be `1`. You can check the `db/db.json` file to make sure.
 ## Deliverables
 
 Look at the gif below to see how the app should look and behave. These are the
-baseline deliverables you need to complete:
+baseline deliverables you need to complete: -->
 
-### Viewing and Displaying Notes
+<!-- ### Viewing and Displaying Notes -->
 
 - [ ] Display all notes in the left sidebar.
 - [ ] Displayed sidebar notes should show the title and a truncated body.

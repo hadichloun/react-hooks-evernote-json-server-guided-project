@@ -1,10 +1,16 @@
 import React from "react";
 
-function NoteItem() {
+function NoteItem({ note, onClickSidebar }) {
+  
+
+  const handleSidebarClick = () => {
+    onClickSidebar(note)
+  }
+  
   return (
-    <li>
-      <h2>Title</h2>
-      <p>Caption...</p>
+    <li onClick={handleSidebarClick}>
+      <h2>{note.title}</h2>
+      <p>{note.body}...</p>
     </li>
   );
 }
